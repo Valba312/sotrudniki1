@@ -100,7 +100,7 @@ function DealsPage({ details, loading, error, onRefresh }: { details: DealDetail
       </div>
       <div className="placeholder-grid">
         {details.map((detail) => (
-          <div key={detail.id} className="placeholder-card" style={{ background: '#fff' }}>
+          <div key={detail.id} className="placeholder-card">
             <p className="pill secondary" style={{ marginBottom: 10 }}>{detail.role === 'receiver' ? 'Сделка приемщик' : 'Сделка кладовщик'}</p>
             <p className="subtext" style={{ marginTop: 0 }}>{detail.periodLabel}</p>
             <p className="label">Объем</p>

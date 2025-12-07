@@ -7,7 +7,16 @@ export const theme = {
     background: '#FFFFFF',
     surfaceLight: '#F5F5F5',
     surfaceDark: '#EFEFEF',
-    content: '#000000'
+    content: '#000000',
+    muted: '#2F3135',
+    subtext: '#4B5563',
+    border: '#E5E7EB',
+    successBg: '#D1FAE5',
+    successText: '#065F46',
+    warningBg: '#FFF4D6',
+    warningText: '#92400E',
+    errorBg: '#FFE4E6',
+    errorText: '#B91C1C'
   },
   radius: {
     md: '12px',
