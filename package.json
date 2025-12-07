@@ -14,6 +14,6 @@
     "dev:frontend": "npm run dev -w frontend",
     "lint": "npm run lint -ws",
     "test": "npm test -ws",
-    "check:conflicts": "rg --color never \"^(<{7}|={7}|>{7})\" || echo 'No conflict markers found'"
+    "check:conflicts": "if rg --color never \"^(<{7}|={7}|>{7})\"; then echo 'Merge conflict markers found'; exit 1; else echo 'No conflict markers found'; fi"
   }
 }
