@@ -1,0 +1,14 @@
+{
+  "name": "@sotrudniki/shared",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "echo 'No lint configured for shared package'",
+    "test": "echo 'No tests for shared package'"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
