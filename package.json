@@ -13,6 +13,7 @@
     "dev:backend": "npm run dev -w backend",
     "dev:frontend": "npm run dev -w frontend",
     "lint": "npm run lint -ws",
-    "test": "npm test -ws"
+    "test": "npm test -ws",
+    "check:conflicts": "rg --color never \"^(<{7}|={7}|>{7})\" || echo 'No conflict markers found'"
   }
 }
